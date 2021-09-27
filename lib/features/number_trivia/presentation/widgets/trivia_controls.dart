@@ -40,7 +40,7 @@ class _TriviaControlsState extends State<TriviaControls> {
               child: ElevatedButton(
                 child: Text('Search'),
                 style: ElevatedButton.styleFrom(
-                  primary: Theme.of(context).accentColor,
+                  primary: Theme.of(context).colorScheme.secondary,
                   textStyle: TextStyle(color: Theme.of(context).primaryColor),
                 ),
                 onPressed: dispatchConcrete,
